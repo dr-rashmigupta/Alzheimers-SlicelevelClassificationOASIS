@@ -1,0 +1,15 @@
+# Python 3.11 recommended. These ranges are not a validated environment lock.
+numpy>=1.26,<3
+Pillow>=10,<13
+scikit-learn>=1.4,<2
+matplotlib>=3.8,<4
+kagglehub>=0.3,<1
+# baseline.py / sota.py:
+tensorflow>=2.16,<3
+# novel.py: install torch/torchvision builds appropriate to your CPU/CUDA platform.
+torch>=2.2,<3
+torchvision>=0.17,<1
+timm>=1.0,<2
+# Optional --lime:
+lime>=0.2.0.1
+scikit-image>=0.22,<1
